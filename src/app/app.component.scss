@@ -1,0 +1,45 @@
+.toolbar, .wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.toolbar {
+  padding: 1rem;
+}
+
+.wrapper {
+  height: calc(100% - 3.5rem);
+}
+
+.content-view {
+  padding: 1rem;
+}
+
+input {
+  font-size: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.125rem 0;
+  margin-left: 1rem;
+  width: 10rem;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  color: #000;
+}
+
+button:hover {
+  background-color: #000;
+  border-color: #fff;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+}
